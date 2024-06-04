@@ -1,0 +1,25 @@
+<div>
+  <nav class="navbar navbar-expand-lg fixed-top"  >
+    <div class="container-fluid">
+      <a class="navbar-brand" routerLink="home">NETFLIX</a>
+      
+      <div  class="collapse navbar-collapse" id="navbarNav" >
+        <!-- *ngIf="getEmail"  -->
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active me-2" aria-current="page" routerLink="home">Home</a>
+          </li>
+          <li class="nav-item ms-2 me-4">
+            <a class="nav-link btn btn-danger search" routerLink="search">Search</a>
+          </li>
+          <div>
+            <button (click)="onClick()"
+            class="logout btn btn-primary fw-bold me-4">Logout</button>
+          </div>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
