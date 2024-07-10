@@ -4,7 +4,7 @@
       <h3 class="text-white text-center p-4 mb-4 fw-bold">Login</h3>
       <form novalidate [formGroup]="formLogin" (ngSubmit)="onSubmit()">
         <div class="form-outline mb-2">
-          <label class="form-label text-white fw-bold">Email</label>
+          <label class="form-label text-white fw-bold">Email/Username</label>
           <input type="text" class="form-control" placeholder="Enter your email" formControlName="email" >
           <span class="helper-text text-white" data-error="wrong" data-success="right">* Email is required</span>
         </div>
