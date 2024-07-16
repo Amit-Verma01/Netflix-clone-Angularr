@@ -5,7 +5,7 @@ import { SearchComponent } from './pages/search/search.component';
 import { MovieDetailsComponent } from './pages/movie-details/movie-details.component';
 import { RegisterComponent } from './components/register/register.component';
 import { LoginComponent } from './components/login/login.component';
-import { canActivate, redirectUnauthorizedTo  } from '@angular/fire/auth-guard';
+// import { canActivate, redirectUnauthorizedTo  } from '@angular/fire/auth-guard';
 
 const routes: Routes = [
   { path: 'register', component: RegisterComponent },
